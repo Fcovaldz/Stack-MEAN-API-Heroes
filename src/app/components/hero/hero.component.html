@@ -1,0 +1,27 @@
+<div class="row">
+       <h2 class="col-10">Nombre Heroe: {{hero.nombre}} <small>año de aparicion: {{hero.aparicion}} </small></h2>
+    <div class="col-2">
+  
+        <button [routerLink]="['/heros']" class="btn btn-outline-warning btn-block">Regresar</button>
+    </div>
+
+    <hr>
+ 
+    <div class="col-6">
+  <!-- <img src="{{Hero.img}}" class="card-img-top" alt="...">--> 
+  <img [src]="hero.img" class="card-img-top">
+        <div class="col-4">
+            <h3>Casa:<img class="img-logo" src="../../../assets/img/marvel.jpeg" *ngIf = "hero.casa == 'DC'">
+                <img class="img-logo" src="../../../assets/img/dc.jpeg" *ngIf = "hero.casa == 'Marvel'">
+     
+            </h3>
+                <!-- <img class="img-logo" src="assets/Img/{{hero.casa}}.jpg" alt=""> -->
+               
+   <p>Super Biografia: {{hero.bio}}</p>
+   
+          <!--  <h2 class="col-10">Heroe: {{Hero.nombre._id }} </h2> <small>Aparicion: {{Hero.aparicion}}</small> --> 
+    
+        <hr>
+     
+</div>
+</div>

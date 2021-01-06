@@ -1,0 +1,21 @@
+###
+Send Request
+GET http://localhost:3000/heroesAct
+
+###
+Send Request
+
+POST http://localhost:3000/heroe
+
+###
+Send Request
+
+PUT http://localhost:3000/heroe/ Content-Type: application/json
+
+###
+Send Request
+
+DELETE http://localhost:3000/hero/
+
+
+

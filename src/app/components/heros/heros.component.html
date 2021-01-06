@@ -1,0 +1,11 @@
+<!-- Heroes component es padre de hero-card component -->
+
+<div class="fastfadeIn">
+  
+    <h2 class="h2 display-6 pb-4">Heroes <small>DC Y MARVEL</small></h2>
+    <!-- *ngFor="let hero of ArrayHeros; let i = index -->
+    <div class="card-columns">
+      <!-- Componente hijo de heros component -->
+      <app-hero-card [PadreHero]="Hero" [index]='i' *ngFor="let Hero of ArrayHeros; let i = index"></app-hero-card>
+    </div>
+  </div>

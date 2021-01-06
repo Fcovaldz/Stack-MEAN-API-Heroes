@@ -1,0 +1,11 @@
+<div class="animated fadeIn">
+    <h2>Resultados para <small>{{str}}</small></h2>
+    <div *ngIf="(resultados == 0)" class="alert alert-primary" role="alert">
+      No se encontró ningun resultado para <b>{{str}}</b>
+    </div>
+    <div *ngIf="(resultados != 0)" class="card-columns">
+      <app-hero-card [PadreHero]="hero" [index]="hero.index" *ngFor="let hero of resultados; let i = index"></app-hero-card>
+  
+      </div>
+    </div>
+    

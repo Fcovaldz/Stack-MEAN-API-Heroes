@@ -1,0 +1,404 @@
+{
+	"knownSymbols": {
+		"getTestBed": [
+			{
+				"name": "getTestBed",
+				"module": "@angular/core/testing",
+				"isDefault": false
+			}
+		],
+		"BrowserDynamicTestingModule": [
+			{
+				"name": "BrowserDynamicTestingModule",
+				"module": "@angular/platform-browser-dynamic/testing",
+				"isDefault": false
+			}
+		],
+		"platformBrowserDynamicTesting": [
+			{
+				"name": "platformBrowserDynamicTesting",
+				"module": "@angular/platform-browser-dynamic/testing",
+				"isDefault": false
+			}
+		],
+		"enableProdMode": [
+			{
+				"name": "enableProdMode",
+				"module": "@angular/core",
+				"isDefault": false
+			}
+		],
+		"platformBrowserDynamic": [
+			{
+				"name": "platformBrowserDynamic",
+				"module": "@angular/platform-browser-dynamic",
+				"isDefault": false
+			}
+		],
+		"multer": [
+			{
+				"name": "multer",
+				"module": "e2e/node_modules/multer",
+				"isDefault": true
+			},
+			{
+				"name": "multer",
+				"path": "c:\\Users\\galch\\OneDrive\\Escritorio\\°°°\\AngularStart2020\\App03\\src\\Heroes-app-server\\libs\\multer.ts",
+				"isDefault": true
+			}
+		],
+		"uuid": [
+			{
+				"name": "uuid",
+				"module": "e2e/node_modules/uuid/v4",
+				"isDefault": true
+			}
+		],
+		"path": [
+			{
+				"name": "path",
+				"module": "path",
+				"isDefault": true
+			}
+		],
+		"async": [
+			{
+				"name": "async",
+				"path": "c:\\Users\\galch\\OneDrive\\Escritorio\\°°°\\AngularStart2020\\App03\\src\\Heroes-app-server\\controller\\heroes.controller.ts",
+				"isDefault": false
+			}
+		],
+		"Request": [
+			{
+				"name": "Request",
+				"module": "e2e/node_modules/express",
+				"isDefault": false
+			}
+		],
+		"Response": [
+			{
+				"name": "Response",
+				"module": "e2e/node_modules/express",
+				"isDefault": false
+			}
+		],
+		"fs": [
+			{
+				"name": "fs",
+				"module": "e2e/node_modules/fs-extra",
+				"isDefault": true
+			}
+		],
+		"environment": [
+			{
+				"name": "environment",
+				"path": "c:\\Users\\galch\\OneDrive\\Escritorio\\°°°\\AngularStart2020\\App03\\src\\environments\\environment.prod.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"HeroService": [
+			{
+				"name": "HeroService",
+				"module": "src/app/services/Hero.services",
+				"isDefault": false
+			},
+			{
+				"name": "HeroService",
+				"path": "c:\\Users\\galch\\OneDrive\\Escritorio\\°°°\\AngularStart2020\\App03\\src\\app\\services\\Hero.services.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"Injectable": [
+			{
+				"name": "Injectable",
+				"module": "@angular/core",
+				"isDefault": false
+			}
+		],
+		"PasswordPipe": [
+			{
+				"name": "PasswordPipe",
+				"path": "c:\\Users\\galch\\OneDrive\\Escritorio\\°°°\\AngularStart2020\\App03\\src\\app\\pipes\\password\\password.pipe.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"Pipe": [
+			{
+				"name": "Pipe",
+				"module": "@angular/core",
+				"isDefault": false
+			}
+		],
+		"PipeTransform": [
+			{
+				"name": "PipeTransform",
+				"module": "@angular/core",
+				"isDefault": false
+			}
+		],
+		"DomseguroPipe": [
+			{
+				"name": "DomseguroPipe",
+				"path": "c:\\Users\\galch\\OneDrive\\Escritorio\\°°°\\AngularStart2020\\App03\\src\\app\\pipes\\domseguro\\domseguro.pipe.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"DomSanitizer": [
+			{
+				"name": "DomSanitizer",
+				"module": "@angular/platform-browser",
+				"isDefault": false
+			}
+		],
+		"SafeResourceUrl": [
+			{
+				"name": "SafeResourceUrl",
+				"module": "@angular/platform-browser",
+				"isDefault": false
+			}
+		],
+		"CapitalizadoPipe": [
+			{
+				"name": "CapitalizadoPipe",
+				"path": "c:\\Users\\galch\\OneDrive\\Escritorio\\°°°\\AngularStart2020\\App03\\src\\app\\pipes\\capitalizado\\capitalizado.pipe.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"NavbarComponent": [
+			{
+				"name": "NavbarComponent",
+				"module": "src/app/components/shared/navbar/navbar.component",
+				"isDefault": false
+			},
+			{
+				"name": "NavbarComponent",
+				"path": "c:\\Users\\galch\\OneDrive\\Escritorio\\°°°\\AngularStart2020\\App03\\src\\app\\components\\shared\\navbar\\navbar.component.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"Component": [
+			{
+				"name": "Component",
+				"module": "@angular/core",
+				"isDefault": false
+			}
+		],
+		"OnInit": [
+			{
+				"name": "OnInit",
+				"module": "@angular/core",
+				"isDefault": false
+			}
+		],
+		"Router": [
+			{
+				"name": "Router",
+				"module": "@angular/Router",
+				"isDefault": false
+			},
+			{
+				"name": "Router",
+				"module": "@angular/router",
+				"isDefault": false
+			}
+		],
+		"ComponentFixture": [
+			{
+				"name": "ComponentFixture",
+				"module": "@angular/core/testing",
+				"isDefault": false
+			}
+		],
+		"TestBed": [
+			{
+				"name": "TestBed",
+				"module": "@angular/core/testing",
+				"isDefault": false
+			}
+		],
+		"FooterComponent": [
+			{
+				"name": "FooterComponent",
+				"module": "src/app/components/shared/footer/footer.component",
+				"isDefault": false
+			},
+			{
+				"name": "FooterComponent",
+				"path": "c:\\Users\\galch\\OneDrive\\Escritorio\\°°°\\AngularStart2020\\App03\\src\\app\\components\\shared\\footer\\footer.component.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"PipesComponent": [
+			{
+				"name": "PipesComponent",
+				"path": "c:\\Users\\galch\\OneDrive\\Escritorio\\°°°\\AngularStart2020\\App03\\src\\app\\components\\pipes\\pipes.component.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"NotfoundComponent": [
+			{
+				"name": "NotfoundComponent",
+				"path": "c:\\Users\\galch\\OneDrive\\Escritorio\\°°°\\AngularStart2020\\App03\\src\\app\\components\\notfound\\notfound.component.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"HomeComponent": [
+			{
+				"name": "HomeComponent",
+				"path": "c:\\Users\\galch\\OneDrive\\Escritorio\\°°°\\AngularStart2020\\App03\\src\\app\\components\\home\\home\\home.component.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"HerosComponent": [
+			{
+				"name": "HerosComponent",
+				"path": "c:\\Users\\galch\\OneDrive\\Escritorio\\°°°\\AngularStart2020\\App03\\src\\app\\components\\heros\\heros\\heros.component.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"HeroCardComponent": [
+			{
+				"name": "HeroCardComponent",
+				"path": "c:\\Users\\galch\\OneDrive\\Escritorio\\°°°\\AngularStart2020\\App03\\src\\app\\components\\hero-card\\hero-card.component.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"Input": [
+			{
+				"name": "Input",
+				"module": "@angular/core",
+				"isDefault": false
+			}
+		],
+		"Output": [
+			{
+				"name": "Output",
+				"module": "@angular/core",
+				"isDefault": false
+			}
+		],
+		"EventEmitter": [
+			{
+				"name": "EventEmitter",
+				"module": "@angular/core",
+				"isDefault": false
+			}
+		],
+		"HeroComponent": [
+			{
+				"name": "HeroComponent",
+				"path": "c:\\Users\\galch\\OneDrive\\Escritorio\\°°°\\AngularStart2020\\App03\\src\\app\\components\\hero\\hero.component.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"ActivatedRoute": [
+			{
+				"name": "ActivatedRoute",
+				"module": "@angular/router",
+				"isDefault": false
+			}
+		],
+		"BuscadorComponent": [
+			{
+				"name": "BuscadorComponent",
+				"path": "c:\\Users\\galch\\OneDrive\\Escritorio\\°°°\\AngularStart2020\\App03\\src\\app\\components\\buscador\\buscador.component.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"AboutComponent": [
+			{
+				"name": "AboutComponent",
+				"path": "c:\\Users\\galch\\OneDrive\\Escritorio\\°°°\\AngularStart2020\\App03\\src\\app\\components\\about\\about\\about.component.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"AppModule": [
+			{
+				"name": "AppModule",
+				"path": "c:\\Users\\galch\\OneDrive\\Escritorio\\°°°\\AngularStart2020\\App03\\src\\app\\app.module.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"BrowserModule": [
+			{
+				"name": "BrowserModule",
+				"module": "@angular/platform-browser",
+				"isDefault": false
+			}
+		],
+		"NgModule": [
+			{
+				"name": "NgModule",
+				"module": "@angular/core",
+				"isDefault": false
+			}
+		],
+		"RouterModule": [
+			{
+				"name": "RouterModule",
+				"module": "@angular/router",
+				"isDefault": false
+			}
+		],
+		"AppComponent": [
+			{
+				"name": "AppComponent",
+				"path": "c:\\Users\\galch\\OneDrive\\Escritorio\\°°°\\AngularStart2020\\App03\\src\\app\\app.component.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"AppPage": [
+			{
+				"name": "AppPage",
+				"path": "c:\\Users\\galch\\OneDrive\\Escritorio\\°°°\\AngularStart2020\\App03\\e2e\\src\\app.po.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"browser": [
+			{
+				"name": "browser",
+				"module": "protractor",
+				"isDefault": false
+			}
+		],
+		"by": [
+			{
+				"name": "by",
+				"module": "protractor",
+				"isDefault": false
+			}
+		],
+		"element": [
+			{
+				"name": "element",
+				"module": "protractor",
+				"isDefault": false
+			}
+		],
+		"logging": [
+			{
+				"name": "logging",
+				"module": "protractor",
+				"isDefault": false
+			}
+		]
+	}
+}

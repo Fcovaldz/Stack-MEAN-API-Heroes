@@ -1,0 +1,53 @@
+
+   
+    
+    <!-- En este routerlink añadimos un segundo parámetro a la ruta, en este caso el index -->
+    <!-- (click)="Navegar(i)" -->
+    <!-- [routerLink]="['/hero',i]" -->
+
+<!--<div class="row">
+  <div class="col s12 m7">
+    <div class="card">
+      <div class="card-image">
+        <img src="images/sample-1.jpg">
+        <span class="card-title">Card Title</span>
+      </div>
+      <div class="card-content">
+        <p>I am a very simple card. I am good at containing small bits of information.
+        I am convenient because I require little markup to use effectively.</p>
+      </div>
+      <div class="card-action">
+        <a href="#">This is a link</a>
+      </div>
+    </div>
+  </div>
+</div>-->
+
+    <div class="card fadeIn fast animated green" [ngClass]="{'border-primary': PadreHero.casa == 'DC', 'border-danger': PadreHero.casa == 'Marvel'}">
+
+   
+          <h5 class="card-title text-center">{{PadreHero.nombre}}</h5>
+      <div class="card-image border white">
+        <img src="{{PadreHero.img}}" class="card-img-top" alt="...">
+     
+        <div class="card-body">
+          <p class="card-text">{{PadreHero.bio.substring(0,35)}}...</p>
+          <div class="col container orange text-center">
+            
+            <small>{{PadreHero.aparicion}}<a href="/añadir" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i>
+            </a></small>
+           <hr>
+            </div>
+          </div>
+    <button (click)="Navegar()" class="btn btn-outline-primary btn-block" >Ver más...</button>
+           
+    <!--  *ngIf="PadreHero.activo"  *ngIf="PadreHero.activo" -->
+               </div>
+
+
+
+          
+ 
+   
+    <!-- (click)= "Navegar(i)" -->
+   
